@@ -9,7 +9,7 @@ import userData from "../constants/data";
 export default function Home({ repositories }) {
   return (
     <ContainerBlock
-      title="Brianna Bias - "
+      title="Brianna Bias - Dev, Creator, Human"
       description="We love a good portfolio site."
     >
       <Hero />
