@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react';
-import userData from '@constants/data';
+import userData from '../constants/data';
 
 export default function About() {
     return (
