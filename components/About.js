@@ -105,9 +105,9 @@ export default function About() {
                     </p>
                     </a>
                 </div>
-                {/* <div className="flex flex-row justify-start items-center">
+                <div className="flex flex-row justify-start items-center">
                         <a
-                        href={userData.socialLinks.twitter}
+                        href={userData.socialLinks.instagram}
                         className="flex flex-row items-center space-x-4 group"
                         >
                         <div className="my-4">&rarr;</div>
@@ -116,7 +116,7 @@ export default function About() {
                             Instagram
                         </p>
                         </a>
-                    </div> */}
+                    </div>
                 </div>
             </div>
             {/* Text area */}

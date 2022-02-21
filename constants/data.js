@@ -38,7 +38,7 @@ const userData = {
     resumeUrl:
         'https://drive.google.com/file/d/1IraX0DNIgLsMaba2IJJbY4CR9YP5yLX2/view?usp=sharing',
     socialLinks: {
-        // instagram: 'https://instagram.com/brisuscristo',
+        instagram: 'https://instagram.com/brisuscristo',
         twitter: 'https://twitter.com/bribiaspdx',
         linkedin: 'https://linkedin.com/in/brianna-bias',
         github: 'https://github.com/bribias',
