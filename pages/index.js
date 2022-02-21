@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from 'next/script'
 import styles from "../styles/Home.module.css";
 import ContainerBlock from "../components/ContainerBlock";
 import LatestCode from "../components/LatestCode";
