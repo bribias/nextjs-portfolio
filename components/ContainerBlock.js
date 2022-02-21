@@ -1,15 +1,15 @@
-import React from 'react';
-import Head from 'next/head';
-import { useRouter } from 'next/router';
-import Nav from './Nav';
-import Footer from './Footer';
+import React from "react";
+import Head from "next/head";
+import { useRouter } from "next/router";
+import  Nav from "./Nav";
+import Footer from "./Footer";
 
 export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: 'Brianna Bias - Developer, Creator, Human.',
-    description: ``,
+    title: 'Brianna Bias - Developer, Creator, Human',
+    description: `I'm just out here taking in all I can.`,
     image: '/avatar.png',
     type: 'website',
     ...customMeta,

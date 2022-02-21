@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
-import userData from "@constants/data";
+import userData from "../constants/data";
 
 export default function Nav() {
   const router = useRouter();
@@ -85,7 +85,7 @@ export default function Nav() {
               )}
             </a>
           </Link>
-          {/* <Link href="/experience">
+          <Link href="/experience">
             <a
               className={`text-base  ${
                 router.asPath === "/experience"
@@ -110,7 +110,7 @@ export default function Nav() {
                 </svg>
               )}
             </a>
-          </Link> */}
+          </Link>
           <Link href="/contact">
             <a
               className={`text-base  ${
@@ -230,11 +230,11 @@ export default function Nav() {
             Projects
           </a>
         </Link>
-        {/* <Link href="/experience">
+        <Link href="/experience">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Experience
           </a>
-        </Link> */}
+        </Link>
         <Link href="/contact">
           <a className="text-base font-normal text-gray-600 dark:text-gray-300">
             Contact
