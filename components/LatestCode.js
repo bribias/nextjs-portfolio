@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from "react";
-import Link from "next/link";
-import getLatestRepos from "../lib/getLatestRepos";
-import userData from "../constants/data";
+import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
+import getLatestRepos from '../lib/getLatestRepos';
+import userData from '../constants/data';
 
 export default function LatestCode({ repositories }) {
   const [repos, setRepos] = useState([]);
 
   useEffect(async () => {
     let latestRepos = await getLatestRepos(userData);
-    console.log("latestRepos", latestRepos);
+    console.log('latestRepos', latestRepos);
     setRepos(repositories);
   }, []);
   return (
